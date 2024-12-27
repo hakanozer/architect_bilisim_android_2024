@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="main_title">Merhaba Android</string>
+    <string name="btn_save">Save</string>
+</resources>
