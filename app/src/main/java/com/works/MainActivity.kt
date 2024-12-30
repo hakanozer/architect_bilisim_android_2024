@@ -70,6 +70,7 @@ class MainActivity : AppCompatActivity() {
                             editor.apply()
                             val intent = Intent(this@MainActivity, NotesActivity::class.java)
                             startActivity(intent)
+                            finish()
                         }
                     }else {
                         Toast.makeText(this@MainActivity, "Username or Password fail!", Toast.LENGTH_SHORT).show()
