@@ -25,6 +25,7 @@ class WelcomeActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        supportActionBar?.hide()
         sharedPreferences = getSharedPreferences("user", MODE_PRIVATE)
         val timer = Timer()
         timer.schedule(task, 2000)

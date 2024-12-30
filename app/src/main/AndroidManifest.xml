@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Project"
         tools:targetApi="31">
         <activity
+            android:name=".controllers.ProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".controllers.WelcomeActivity"
             android:exported="true">
             <intent-filter>
