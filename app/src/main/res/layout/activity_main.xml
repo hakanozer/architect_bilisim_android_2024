@@ -34,6 +34,7 @@
         android:fontFamily="@font/roboto_flex"
         android:hint="E-Mail"
         android:inputType="textEmailAddress"
+        android:text="emilys"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -47,6 +48,7 @@
         android:fontFamily="@font/roboto_flex"
         android:hint="Password"
         android:inputType="textPassword"
+        android:text="emilyspass"
         app:layout_constraintEnd_toEndOf="@+id/l_txtEmail"
         app:layout_constraintStart_toStartOf="@+id/l_txtEmail"
         app:layout_constraintTop_toBottomOf="@+id/l_txtEmail" />
